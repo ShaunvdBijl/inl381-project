@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const Booking = require('../models/Booking');
-const User = require('../models/User');
-const Subject = require('../models/Subject');
-const Review = require('../models/Review');
-const Notification = require('../models/Notification');
+const Booking = require('../Models/Booking');
+const User = require('../Models/User');
+const Subject = require('../Models/Subject');
+const Review = require('../Models/Review');
+const Notification = require('../Models/Notification');
 const { requireAuth, requireRole } = require('../middleware/auth');
 
 // Student Dashboard
