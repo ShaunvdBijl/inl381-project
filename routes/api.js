@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const Booking = require('../models/Booking');
-const User = require('../models/User');
-const Subject = require('../models/Subject');
-const Notification = require('../models/Notification');
-const Review = require('../models/Review');
+const Booking = require('../Models/Booking');
+const User = require('../Models/User');
+const Subject = require('../Models/Subject');
+const Notification = require('../Models/Notification');
+const Review = require('../Models/Review');
 const { 
   generateTimeSlots, 
   timeToMinutes, 
